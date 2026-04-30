@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+ background: linear-gradient(to bottom, #0f2027, #2c5364);
+   position: relative;
+}
+.formulario{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 1px solid (255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-sizing: 0 8px 36px rgba(0,0,0, 0.2);
+    color: white;
+    border-radius: 16px;
+    padding: 25px;
+
+}
+.formulario h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25x;
+    font-weight:600 ;
+}
+.caixa-formulario{
+    position: relative;
+    margin-bottom: 20px;
+}
+.caixa-formulario input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 16px; 
+    padding: 0, 20px;
+    
+   
+}
+.caixa-formulario input::placeholder {
+    color: black;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.caixa-formulario ion-icon {
+    position:absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 26%;
+ 
+}
+.caixa-lembrar-esqueci{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 16px;
+ 
+
+}
+.caixa-lembrar-esqueci label{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+
+}
+.caixa-lembrar-esqueci a{
+    text-decoration: none;
+    color: white;
+}
+
+
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    outline: none;
+     cursor: pointer;
+     font-size: 16px;
+     font-weight: 600;
+     transition: all 0.2s;
+}
+button:hover {
+    background-color: #fff;
+    transform: translateY(-5px);
+
+}
+.link-registro {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.link-registro a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.link-registro:hover{
+    text-decoration: underline;
+}
